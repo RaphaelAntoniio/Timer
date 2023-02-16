@@ -17,9 +17,13 @@ body{
 .container{
     max-width: 640px;
     margin: 0 auto;
-    background: #fff;
+    background-color: black;
     padding: 50px;
     border-radius: 50px;
+    color: rgb(188, 255, 3);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 
 }
 form input, form label, form button{
@@ -53,7 +57,23 @@ form button:hover{
 form button:active{
     background: red;
 }
-.relogio{
+.timer1{
     font-size: 50px;
-    color: rgb(0, 0, 0);
+    color: rgb(188, 255, 3)
+}
+button{
+    height: 40px;
+    width: 80px;
+    margin: 40px 30px;
+    border-radius: 10px;
+}
+button:hover{
+    transition: all 600ms ease-in-out;
+    background: rgba(241, 243, 111, 0.986);
+    height: 45px;
+    width: 85px;
+}
+.Stop2:hover{
+    transition: all 600ms;
+    background: rgba(243, 111, 111, 0.986);
 }
